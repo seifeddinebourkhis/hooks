@@ -1,0 +1,98 @@
+@import url("https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+.list{
+  display: inline-block;
+  background: rgb(251,6,80);
+background: linear-gradient(90deg, rgba(251,6,80,1) 0%, rgba(131,1,27,1) 53%, rgba(8,0,1,0.9220063025210083) 100%);
+  
+}
+
+html,
+body {
+  background: rgb(32, 32, 32);
+  font-family: "Montserrat", helvetica, arial, sans-serif;
+  font-size: 14px;
+  font-weight: 50;
+}
+/* .bright_back {
+  background: url("https://occ-0-2433-448.1.nflxso.net/art/cd5c9/3e192edf2027c536e25bb5d3b6ac93ced77cd5c9.jpg");
+} */
+
+.movie_card  {
+  position: relative;
+  background-color: black;
+  background: url("https://occ-0-2433-448.1.nflxso.net/art/cd5c9/3e192edf2027c536e25bb5d3b6ac93ced77cd5c9.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 50%;
+  height: 50%;
+  background-blend-mode: multiply;
+  z-index: 1;
+  border-radius: 20px;
+  margin: 10px 20px 20px 350px ;
+  padding: 5px;
+}
+
+  
+ /* :hover {
+    transform: scale(1.01);
+    transition:  0.1s;
+  } */
+
+  .info_section {
+    background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+    border-radius: 20px;
+}
+    .movie_header {
+      position: relative;
+      padding: 25px;
+      height: 40%;
+    }
+      h1 {
+        color: rgb(197, 33, 33);
+        font-weight: 400;
+      }
+      h4 {
+        color: #9ac7fa;
+        font-weight: 400;
+      }
+      .minutes {
+        display: inline-block;
+        margin-top: 10px;
+        color: #fff;
+        padding: 5px;
+        border-radius: 5px;
+        border: 1px solid rgba(255, 255, 255, 0.13);
+      }
+      .type {
+        display: inline-block;
+        color: #cee4fd;
+        margin-left: 10px;
+      }
+      .locandina {
+        position: relative;
+        float: left;
+        margin-right: 20px;
+        height: 120px;
+        box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+      }
+    
+    .movie_desc {
+      padding: 25px;
+      height: 50%;
+    }
+      .text {
+        color: #cfd6e1;
+      }
+    
+     .nav{
+       background-color: #44443f;
+     }
+    
+  
+
+
